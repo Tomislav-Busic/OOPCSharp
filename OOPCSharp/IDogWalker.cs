@@ -8,5 +8,8 @@ namespace OOPCSharp
 {
     public interface IDogWalker
     {
+        void WalkToThePark();
+        void WalkToTheCity();
+        void WalkToTheFoodBowl();
     }
 }
