@@ -8,6 +8,11 @@ namespace OOPCSharp
 {
     public class Dog : IDogWalker
     {
+
+        public void DogBarking()
+        {
+            Console.WriteLine("Bark bark");
+        }
         public void WalkToTheCity()
         {
             Console.WriteLine("Walk to the city.");
