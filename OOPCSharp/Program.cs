@@ -17,3 +17,11 @@ Console.WriteLine(newLine);
 
 Console.WriteLine("Abstract Classes");
 
+PingIPV6 pingIPV6 = new();
+Console.WriteLine(pingIPV6.Init());
+Console.WriteLine(pingIPV6.SendPing());
+
+PingIPV4 pingIPV4 = new();
+Console.WriteLine(pingIPV4.Init());
+Console.WriteLine(pingIPV4.SendPing());
+
