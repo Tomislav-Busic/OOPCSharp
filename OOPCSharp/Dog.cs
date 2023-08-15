@@ -10,17 +10,17 @@ namespace OOPCSharp
     {
         public void WalkToTheCity()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Walk to the city.");
         }
 
         public void WalkToTheFoodBowl()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Walk to the food bowl.");
         }
 
         public void WalkToThePark()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Walk to the park.");
         }
     }
 }
