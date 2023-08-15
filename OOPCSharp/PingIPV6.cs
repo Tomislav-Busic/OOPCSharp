@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace OOPCSharp
 {
-    internal class PingIPV6
+    internal class PingIPV6 : BasePing
     {
-        public int HostAddress { get; set; }
-        public int DestAddress { get; set; }
-        public string Data { get; set; }
         public bool Init()
         {
             return true;
