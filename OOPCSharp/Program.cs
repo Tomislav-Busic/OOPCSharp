@@ -1,9 +1,16 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using OOPCSharp;
 
-Console.WriteLine("Hello, World!");
+string newLine = "//////////////////////////////////////////";
+
+Console.WriteLine("Interfaces");
 
 Dog myDog = new();
 myDog.DogBarking();
 
 IDogWalker otherDog = new Dog();
+otherDog.WalkToThePark();
+
+Console.WriteLine(newLine);
+
+//////////////////////////////////
