@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace OOPCSharp
 {
-    public class PingIPV4
+    public class PingIPV4 : BasePing
     {
-        
-
         // If ping boots, return true but SAME
         public bool Init()
         {
