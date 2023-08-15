@@ -15,7 +15,7 @@ namespace OOPCSharp
 
         public void WalkToTheFoodBowl()
         {
-            Console.WriteLine("Walk to the food bowl.");
+            Console.WriteLine("Walk to the foodbowl.");
         }
 
         public void WalkToThePark()
