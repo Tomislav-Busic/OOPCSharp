@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OOPCSharp
 {
-    public class Dog
+    public interface IDogWalker
     {
     }
 }
