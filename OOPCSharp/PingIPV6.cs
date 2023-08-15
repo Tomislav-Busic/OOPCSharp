@@ -8,10 +8,6 @@ namespace OOPCSharp
 {
     internal class PingIPV6 : BasePing
     {
-        public bool Init()
-        {
-            return true;
-        }
         // Different implementation
         public bool SendPing()
         {
