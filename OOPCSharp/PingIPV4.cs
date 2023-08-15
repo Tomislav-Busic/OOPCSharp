@@ -8,9 +8,7 @@ namespace OOPCSharp
 {
     public class PingIPV4
     {
-        public int HostAddress { get; set; }
-        public int DestAddress { get; set; }
-        public string Data { get; set; }
+        
 
         // If ping boots, return true but SAME
         public bool Init()

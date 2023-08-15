@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace OOPCSharp
 {
-    internal class BasePing
+    public abstract class BasePing
     {
+        public int HostAddress { get; set; }
+        public int DestAddress { get; set; }
+        public string Data { get; set; }
+
     }
 }
