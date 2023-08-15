@@ -25,3 +25,11 @@ PingIPV4 pingIPV4 = new();
 Console.WriteLine(pingIPV4.Init());
 Console.WriteLine(pingIPV4.SendPing());
 
+Console.WriteLine(newLine);
+
+//////////////////////////////////
+
+Console.WriteLine("Polymorphism");
+
+// Many forms - Type
+
