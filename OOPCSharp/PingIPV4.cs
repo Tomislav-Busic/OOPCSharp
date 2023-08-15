@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OOPCSharp
 {
-    public class Ping
+    public class PingIPV4
     {
         public int HostAddress { get; set; }
         public int DestAddress { get; set; }
