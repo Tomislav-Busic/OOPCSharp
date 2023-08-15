@@ -11,7 +11,6 @@ namespace OOPCSharp
         public int HostAddress { get; set; }
         public int DestAddress { get; set; }
         public string Data { get; set; }
-
         public bool Init()
         {
             return true;

@@ -12,12 +12,12 @@ namespace OOPCSharp
         public int DestAddress { get; set; }
         public string Data { get; set; }
 
-        // If ping boots, return true
+        // If ping boots, return true but SAME
         public bool Init()
         {
             return true;
         }
-
+        // Different implementation
         public bool SendPing()
         {
             return true;
