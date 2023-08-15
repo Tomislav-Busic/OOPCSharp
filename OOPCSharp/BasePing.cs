@@ -13,10 +13,7 @@ namespace OOPCSharp
         public string Data { get; set; }
 
         // If ping boots, return true but SAME
-        public bool Init()
-        {
-            return true;
-        }
+        public abstract bool Init();
 
     }
 }
