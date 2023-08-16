@@ -8,8 +8,11 @@ namespace OOPCSharp
 {
     public class PassByReference
     {
-        public PassByReference() { 
-       
+        public PassByReference() {
+            Person person1 = new();
+            Person person2 = new();
+            person1.Age = 5;
+            person2.Age = 10;
         }
      }
 }
