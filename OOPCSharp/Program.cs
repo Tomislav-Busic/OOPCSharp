@@ -33,6 +33,9 @@ Console.WriteLine("Polymorphism");
 
 // Many forms - Type
 
+Animal turtle = new();
+turtle.animalSound();
+
 class Animal
 {
     public virtual void animalSound()
