@@ -41,3 +41,11 @@ class Animal
     }
 }
 
+class Turtle : Animal
+{
+    public override void animalSound()
+    {
+        Console.WriteLine("Turtle noise");
+    }
+}
+
