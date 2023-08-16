@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace OOPCSharp
 {
-    public class PassByReference
+    public class Person
     {
-        public PassByReference() { 
-       
-        }
-     }
+        public int Age { get; set; }
+    }
 }
