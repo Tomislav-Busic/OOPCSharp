@@ -68,6 +68,10 @@ internal class Program
 
         Console.WriteLine(nullCon);
 
+        Console.WriteLine(newLine);
+
+        //////////////////////////////////
+
     }
 }
 
