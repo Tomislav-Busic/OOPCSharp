@@ -51,6 +51,13 @@ internal class Program
         Console.WriteLine(newLine);
 
         //////////////////////////////////
+
+        Console.WriteLine("Pass By Reference");
+
+        PassByReference passByRef = new();
+
+        Console.WriteLine(passByRef);
+
     }
 }
 
