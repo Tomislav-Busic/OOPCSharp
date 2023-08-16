@@ -25,6 +25,13 @@ namespace OOPCSharp
             string myString2 = null;
 
             Console.WriteLine(myString2 ?? "string");
+
+            void Print(int? num)
+            {
+                Console.WriteLine(num);
+            }
+
+            Print(null);
         }
     }
 }
