@@ -21,6 +21,10 @@ namespace OOPCSharp
             {
                 Console.WriteLine(myString);
             }
+
+            string myString2 = null;
+
+            Console.WriteLine(myString2 ?? "string");
         }
     }
 }
