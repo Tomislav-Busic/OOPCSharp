@@ -61,6 +61,12 @@ internal class Program
         Console.WriteLine(newLine);
 
         //////////////////////////////////
+        
+        Console.WriteLine("NULL Conditional and Coalescing Operators");
+
+        NullConditional nullCon = new();
+
+        Console.WriteLine(nullCon);
 
     }
 }
