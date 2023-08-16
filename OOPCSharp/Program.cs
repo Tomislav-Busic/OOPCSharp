@@ -71,7 +71,16 @@ internal class Program
         Console.WriteLine(newLine);
 
         //////////////////////////////////
+        
+        Console.WriteLine("Constructors");
 
+        ConstructorExample conExe = new("Tomo");
+
+        Console.WriteLine(conExe.Name);
+
+        Console.WriteLine(newLine);
+
+        //////////////////////////////////
     }
 }
 
