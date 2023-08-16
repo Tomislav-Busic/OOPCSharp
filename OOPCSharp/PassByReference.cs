@@ -19,6 +19,15 @@ namespace OOPCSharp
             person2.Age = 10;
 
             Console.WriteLine(person1.Age + " " + person2.Age);
+            Square(person1, person2);
+
+            void Square (Person a, Person b)
+            {
+                a.Age = a.Age * a.Age;
+                b.Age = b.Age * b.Age;
+
+                Console.WriteLine($"Person1: {a.Age}, Person2: {b.Age}");
+            }
         }
      }
 }
