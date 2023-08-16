@@ -58,6 +58,10 @@ internal class Program
 
         Console.WriteLine(passByRef);
 
+        Console.WriteLine(newLine);
+
+        //////////////////////////////////
+
     }
 }
 
