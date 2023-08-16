@@ -47,6 +47,10 @@ internal class Program
         int add1 = testPolymorphism.Add(4, 6);
 
         Console.WriteLine($"Result1: {add1}, Result2: {add2}");
+
+        Console.WriteLine(newLine);
+
+        //////////////////////////////////
     }
 }
 
