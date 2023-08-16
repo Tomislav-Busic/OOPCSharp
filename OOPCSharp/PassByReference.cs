@@ -20,6 +20,7 @@ namespace OOPCSharp
 
             Console.WriteLine(person1.Age + " " + person2.Age);
             Square(person1, person2);
+            Console.WriteLine(person1.Age + " " + person2.Age);
 
             void Square (Person a, Person b)
             {
